@@ -247,7 +247,7 @@ body {
 
 .container-fluid-about {
     width: 90%;
-    height: 900px !important;
+    height: 950px !important;
     margin: 0 auto;
     transform: translateY(-18%);
     background-color: #ffffff;
@@ -274,6 +274,7 @@ body {
 }
 
 .restourentimgtext {
+    font-size: 20px;
     justify-content: center;
     text-align: center;
     align-items: center;
