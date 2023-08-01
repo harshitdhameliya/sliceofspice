@@ -38,6 +38,10 @@ body {
     color: #ffffff !important;
 }
 
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
 .view {
     width: 160px;
     height: 36px;
@@ -169,7 +173,7 @@ body {
 
 @media (min-width:480px) and (max-width:768px) {
     .navbar.navbar-expand-lg {
-        position: static;
+        position: absolute;
         background: none;
     }
 
