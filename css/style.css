@@ -964,7 +964,6 @@ footer p strong {
 .emailadd {
     width: 100%;
     height: 240px;
-    margin-top: 50px;
     background-image: url(../img/email-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1093,11 +1092,10 @@ footer p strong {
 
 .footer {
     width: 100%;
-    height: 400px;
+    height: 360px;
     color: #ffffff;
     background-color: #16191E;
     font-weight: 200;
-    margin-top: 60px;
 }
 
 .footer-text {
@@ -1290,8 +1288,15 @@ footer p strong {
     justify-content: center;
     align-items: center;
     grid-template-columns: auto auto;
-    column-gap: 200px;
     font-family: 'Montserrat';
+}
+
+.copy-text{
+    margin-right: 240px;
+}
+
+.socialmicon{
+    margin-left: 240px;
 }
 
 /* copyright media */
