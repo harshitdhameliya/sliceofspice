@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
+    font-weight: 500 !important;
 }
 
 body,
@@ -20,6 +21,7 @@ body {
 }
 
 .navbar>.container-fluid {
+    column-gap: 450px;
     margin-left: 30px;
 }
 
@@ -28,17 +30,13 @@ body {
 }
 
 .dropdown-item {
+    margin-left: 10px;
     color: #ffffff !important;
-    position: static;
 }
 
 .dropdown-item.active {
+    margin-left: 0;
     color: #ffffff !important;
-    position: static;
-}
-
-.navbar-toggler{
-    background-color: #ffffff;
 }
 
 .view {
@@ -52,8 +50,10 @@ body {
     background-color: #CC9933;
     color: #ffffff;
     border: none;
-    font-weight: 500;
+    margin-left: 30px;
+    font-weight: 600;
     font-size: 15px;
+    font-style: bold;
 }
 
 .container-main {
@@ -105,7 +105,7 @@ body {
 
 @media (min-width:320px) and (max-width:480px) {
     .navbar.navbar-expand-lg {
-        position: absolute;
+        position: static;
         background: none;
     }
 
@@ -170,7 +170,7 @@ body {
 
 @media (min-width:480px) and (max-width:768px) {
     .navbar.navbar-expand-lg {
-        position: absolute;
+        position: static;
         background: none;
     }
 
