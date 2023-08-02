@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 
-.nav-brand-text{
+.nav-brand-text {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 12px;
@@ -132,7 +132,7 @@ body {
         align-items: center;
     }
 
-    .nav-brand-text{
+    .nav-brand-text {
         display: none;
     }
 
@@ -181,7 +181,7 @@ body {
         font-weight: 400;
         margin-top: 12px;
         margin-left: 20px;
-        text-align:start ;
+        text-align: start;
     }
 
     .container-fluid {
@@ -226,7 +226,7 @@ body {
         margin-left: 10px;
     }
 
-    .nav-brand-text{
+    .nav-brand-text {
         display: none;
     }
 
@@ -275,7 +275,7 @@ body {
     .container-main {
         width: 100%;
         height: 400px;
-        background-size:auto;
+        background-size: auto;
     }
 
     .container-main-text P {
@@ -307,6 +307,111 @@ body {
         border: none;
         margin-top: 5px;
         margin-left: 10px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .navbar.navbar-expand-lg {
+        position: absolute;
+    }
+
+    .navbar>.container-fluid {
+        column-gap: 250px;
+        margin-left: 30px;
+    }
+
+    .navbar-brand {
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .nav-brand-text {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 10px;
+        font-family: 'Montserrat';
+    }
+
+    .dropdown-item {
+        margin-left: 5px;
+        color: #ffffff !important;
+    }
+
+    .dropdown-item.active {
+        margin-left: 0;
+        color: #ffffff !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 5px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        column-gap: 0;
+    }
+
+    .view {
+        width: 160px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        text-transform: uppercase;
+        background-color: #CC9933;
+        color: #ffffff;
+        border: none;
+        margin-left: 30px;
+        font-weight: 600;
+        font-size: 15px;
+        font-style: bold;
+    }
+
+    .container-main {
+        width: 100%;
+        height: 720px;
+        background-image: url(../img/main.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+    }
+
+    .container-main-text {
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 150px;
+    }
+
+    .container-main-text h1 {
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-left: 15px;
+    }
+
+    .container-main-text SPAN {
+        color: #CC9933;
+    }
+
+    .container-main-text P {
+        width: 50%;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .see-our-menu {
+        width: 140px;
+        height: 35px;
+        text-transform: uppercase;
+        background-color: #CC9933;
+        font-weight: 700;
+        border: none;
+        margin-top: 5px;
+        margin-left: 15px;
     }
 }
 
@@ -430,6 +535,19 @@ body {
     }
 }
 
+@media (min-width:769px) and (max-width:1024px) {
+    .container-fluid-about {
+        width: 90%;
+        height: auto !important;
+        transform: translateY(-15%);
+    }
+
+    .container-f-about {
+        width: 100%;
+        height: 90px;
+    }
+}
+
 
 /* delivery css */
 
@@ -511,6 +629,15 @@ body {
 
     .delivery-paragraph {
         width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .delivery {
+        width: 100%;
+        height:auto;
+        background: #F7E9E4;
+        margin-top: 0px;
     }
 }
 
@@ -1141,6 +1268,17 @@ footer p strong {
     }
 }
 
+@media (min-width:769px) and (max-width:1024px){
+    .email {
+        width: 450px;
+        height: 60px;
+        text-transform: capitalize;
+        font-size: 18px;
+        margin-left: 200px;
+        border: none;
+    }
+}
+
 /* footer css */
 
 .footer {
@@ -1332,6 +1470,13 @@ footer p strong {
     }
 }
 
+@media (min-width:769px) and (max-width:1024px){
+    .footer {
+        width: 100%;
+        height: 450px;
+    }
+}
+
 /* copyright css */
 
 .copyr {
@@ -1347,11 +1492,11 @@ footer p strong {
     font-family: 'Montserrat';
 }
 
-.copy-text{
+.copy-text {
     margin-right: 240px;
 }
 
-.socialmicon{
+.socialmicon {
     margin-left: 240px;
 }
 
@@ -1367,12 +1512,12 @@ footer p strong {
         text-align: center;
     }
 
-    .copy-text{
+    .copy-text {
         margin-right: 0px;
         padding-top: 8px;
     }
-    
-    .socialmicon{
+
+    .socialmicon {
         margin-left: 0px;
     }
 }
@@ -1387,12 +1532,12 @@ footer p strong {
         text-align: center;
     }
 
-    .copy-text{
+    .copy-text {
         margin-right: 0px;
         padding-top: 15px;
     }
-    
-    .socialmicon{
+
+    .socialmicon {
         margin-left: 0px;
     }
 }
