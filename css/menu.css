@@ -147,6 +147,56 @@ body{
     }
 }
 
+@media (min-width:768px) and (max-width:1024px){
+    .navbar.navbar-expand-lg {
+        position: absolute;
+        width: 100%;
+        font-family: 'Montserrat';
+    }
+    
+    .navbar>.container-fluid {
+        column-gap: 200px;
+        margin-left: 30px;
+        width: 100%;
+    }
+    
+    .navbar-brand {
+        margin-left: 40px;
+    }
+    
+    .dropdown-item {
+        margin-left: 10px;
+        color: #ffffff !important;
+    }
+    
+    .dropdown-item.active {
+        margin-left: 0;
+        color: #ffffff !important;
+    }
+    
+    .view {
+        width: 160px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        text-transform: uppercase;
+        background-color: #CC9933;
+        color: #ffffff;
+        border: none;
+        margin-left: 30px;
+        font-weight: 600;
+        font-size: 15px;
+        font-style: bold;
+    }
+    
+    .menu img {
+        width: 100%;
+        height: 600px;
+    }   
+}
+
 /* our menu css */
 
 .ourmenu {
@@ -580,6 +630,21 @@ body{
     }
 }
 
+@media (min-width:768px) and (max-width:1024px){
+    .burger-card {
+        width: 70%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: -120px;
+    }
+
+    .b-card-3 {
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+}
+
 /* pizza section css */
 
 .pizza-card {
@@ -826,6 +891,19 @@ body{
     }
 }
 
+@media (min-width:768px) and (max-width:1024px){
+    .pizza-card {
+        width: 70%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .p-card-3 {
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+}
 
 /* sandwich section css */
 
@@ -1068,6 +1146,20 @@ body{
     }
 
     .s-card-3 h5 {
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .sandwiches-card {
+        width: 70%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .s-card-3 {
         margin-top: 15px;
         text-transform: uppercase;
     }
