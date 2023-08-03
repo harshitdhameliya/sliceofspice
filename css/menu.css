@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body,html{
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+}
+
 .navbar.navbar-expand-lg {
     position: absolute;
     width: 100%;
@@ -1266,8 +1274,15 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: auto auto;
-    column-gap: 200px;
     font-family: 'Montserrat';
+}
+
+.copy-text{
+    margin-right: 250px;
+}
+
+.socialmicon{
+    margin-left: 150px;
 }
 
 /* copyright media */
