@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body,html{
+    overflow-x: hidden;
+}
+
+body{
+    position: relative;
+}
+
 .navbar.navbar-expand-lg {
     position: absolute;
 }
