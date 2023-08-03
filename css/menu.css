@@ -1296,6 +1296,14 @@ body{
         display: block;
         text-align: center;
     }
+
+    .copy-text{
+        margin-right: 0px;
+    }
+    
+    .socialmicon{
+        margin-left: 0px;
+    }    
 }
 
 @media (min-width:480px) and (max-width:768px) {
@@ -1307,4 +1315,13 @@ body{
         display: block;
         text-align: center;
     }
+
+    .copy-text{
+        margin-right: 0px;
+    }
+    
+    .socialmicon{
+        margin-left: 0px;
+    }
+    
 }
