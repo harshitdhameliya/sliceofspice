@@ -159,8 +159,10 @@ body{
     }
 }
 
-@media (min-width:480px) and (max-width:768px){
-    
+@media (min-width:768px) and (max-width:1024px){
+    .navbar>.container-fluid{
+        column-gap: 230px;
+    }
 }
 
 /* gallary css */
@@ -262,6 +264,44 @@ body{
     
     .gallary{
         width: 80%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+    }
+    
+    .gallary img{
+        padding: 5px;
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .container-main{
+        width: 100%;
+        height:300px;
+        background-image: url(../img/gallary\ bg.png);
+        text-align: center;
+    }
+    
+    .container-main h1{
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 58px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+    
+    .gallary-text h2{
+        text-align: center;
+        margin-top: 30px;
+        text-transform:uppercase ;
+    }
+    
+    .gallary{
+        width: 60%;
         text-align: center;
         display: grid;
         grid-template-columns: auto auto;
