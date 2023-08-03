@@ -537,7 +537,7 @@ body {
 
 @media (min-width:769px) and (max-width:1024px) {
     .container-fluid-about {
-        width: 90%;
+        width: 100%;
         height: auto !important;
         transform: translateY(-15%);
     }
@@ -872,6 +872,14 @@ td {
     }
 }
 
+@media (min-width:769px) and (max-width:1024px){
+    .counterbg img {
+        width: 100%;
+        height: 420px;
+        position: absolute;
+    }
+}
+
 
 .sectiontitle {
     background-position: center;
@@ -1142,7 +1150,7 @@ footer p strong {
 
 .emailadd {
     width: 100%;
-    height: 240px;
+    height: 260px;
     background-image: url(../img/email-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1271,11 +1279,24 @@ footer p strong {
 @media (min-width:769px) and (max-width:1024px){
     .email {
         width: 450px;
-        height: 60px;
+        height: 50px;
         text-transform: capitalize;
         font-size: 18px;
-        margin-left: 200px;
+        display: block;
+        margin: auto;
         border: none;
+    }
+
+    .subscrib {
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+        background-color: #CC9933;
+        color: #ffffff;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
     }
 }
 
@@ -1526,6 +1547,26 @@ footer p strong {
     .copyr {
         width: 100%;
         height: 100px;
+        background-color: #CC9933;
+        color: #000000;
+        display: block;
+        text-align: center;
+    }
+
+    .copy-text {
+        margin-right: 0px;
+        padding-top: 15px;
+    }
+
+    .socialmicon {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .copyr {
+        width: 100%;
+        height: 90px;
         background-color: #CC9933;
         color: #000000;
         display: block;
