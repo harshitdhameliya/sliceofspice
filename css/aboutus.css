@@ -209,15 +209,70 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: #F7E9E4;
+    animation: rowan 5s; 
+}
+
+@keyframes rowan{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 10;
+    }
 }
 
 #col-text h2 {
     text-transform: uppercase;
     font-size: 36px;
+    animation: textan 2s;
+    margin-left: 20px;
 }
 
+@keyframes textan {
+    0%{
+        margin-left:-500px ;
+        opacity: 0;
+    }
+
+    100%{
+        margin-left:20px ;
+        opacity: 10;
+    }
+}
+
+
 #col-text p {
+    width: 100%;
     text-transform: uppercase;
     font-size: 18px;
+    animation: textpan 3s;
+    margin-left: 20px;
+}
+
+@keyframes textpan {
+    0%{
+        margin-left:-500px ;
+        opacity: 0;
+    }
+
+    100%{
+        margin-left:20px ;
+        opacity: 10;
+    }
+}
+
+.col-img img{
+    animation: colimg 3s;
+    margin-right: 20px;
+}
+
+@keyframes colimg{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 10;
+    }
 }
