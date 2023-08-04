@@ -204,16 +204,12 @@ body {
     }
 }
 
-#container-fluid{
-    width: 100%;
-    background: #F7E9E4;
-}
-
 .row {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 100%;
+    background: #F7E9E4;
 }
 
 #col-text h2 {
