@@ -12,6 +12,9 @@ html {
 
 body {
     position: relative;
+    margin: 0 auto;
+    max-width: 1900px;
+    width: 100%;
 }
 
 /* home section css */
