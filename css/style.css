@@ -336,8 +336,7 @@ body {
 
     .dropdown-item {
         margin: 0 auto;
-        text-align: center;
-        color: #000000!important;
+        color:#000000!important;
     }
 
     .dropdown-item.active {
@@ -365,7 +364,7 @@ body {
         background-color: #CC9933;
         color: #ffffff;
         border: none;
-        margin-left: 30px;
+        margin: 0 auto;
         font-weight: 600;
         font-size: 15px;
         font-style: bold;
