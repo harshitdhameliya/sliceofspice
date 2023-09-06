@@ -474,8 +474,9 @@ body {
 @media (min-width:320px) and (max-width:480px) {
     .container-fluid-about {
         width: 100%;
-        height: auto !important;
+        height:auto !important;
         transform: translateY(0%);
+        padding: 20px;
     }
 
     .container-f-about {
@@ -492,7 +493,7 @@ body {
     .restourentimgtext {
         margin: 0;
         padding: 0;
-        margin-top: 10px;
+        margin-top: 0px;
         width: 100%;
     }
 
@@ -501,7 +502,7 @@ body {
         height: 30px;
         display: block;
         margin: 0 auto;
-        margin-top: 10px;
+        margin-top: 0px;
         color: #CC9933;
         border: none;
         background: none;
@@ -603,6 +604,11 @@ body {
         background-image: url(../img/Group\ \(1\).png);
         background-size: cover;
         background-repeat: no-repeat;
+        padding: 20px;
+    }
+
+    .deliverytext p{
+        height: 100px;
     }
 
     .delivery-paragraph {
@@ -614,8 +620,8 @@ body {
         height: 60px;
         text-transform: capitalize;
         margin: 0 auto;
+        margin-top: 20px;
         display: block;
-        margin-top: 40px;
         color: #F7E9E4;
         background-color: #000000;
         border: none;
