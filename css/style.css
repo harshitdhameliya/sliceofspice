@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Montserrat';
     font-weight: 500 !important;
+    box-sizing: border-box;
 }
 
 body,
@@ -10,13 +11,13 @@ html {
     overflow-x: hidden;
     margin: 0 auto;
     max-width: 1900px;
-    width: 100%;
+    /* width: 100%;
+    height:100%; */
     padding: 0 ;
 }
 
 body {
     position: relative;
-
 }
 
 /* home section css */
@@ -94,7 +95,6 @@ body {
 }
 
 .container-main-text P {
-    width: 40%;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 400;
@@ -171,17 +171,14 @@ body {
     .container-main-text h1 {
         text-transform: uppercase;
         font-size: 30px;
-        margin-left: 20px;
+        margin-left:0px ;
     }
 
     .container-main-text P {
-        width: 70%;
         text-transform: uppercase;
         font-size: 10px;
         font-weight: 400;
-        margin-top: 12px;
-        margin-left: 20px;
-        text-align: start;
+        margin-left:0px ;
     }
 
     .container-fluid {
@@ -193,6 +190,7 @@ body {
         width: 100%;
         height: 350px;
         background-size: cover;
+        text-align: center;
     }
 
     .container-main-text {
@@ -207,8 +205,8 @@ body {
         background-color: #CC9933;
         font-weight: 700;
         border: none;
-        margin-top: 5px;
-        margin-left: 15px;
+        margin-top: 15px;
+        margin-left: 0px;
     }
 }
 
@@ -421,9 +419,9 @@ body {
 
 .container-fluid-about {
     width: 90%;
-    height: 900px !important;
+    height: 880px !important;
     margin: 0 auto;
-    transform: translateY(-15%);
+    transform: translateY(-13%);
     background-color: #ffffff;
     box-shadow: 1px 1px 10px;
 }
@@ -515,7 +513,7 @@ body {
 @media (min-width:480px) and (max-width:769px) {
     .container-fluid-about {
         width: 100%;
-        height: auto !important;
+        height: 800px !important;
         transform: translateY(0%);
     }
 
@@ -533,7 +531,8 @@ body {
     .restourentimgtext {
         margin: 0;
         padding: 0;
-        margin-top: 20px;
+        margin-top: 0px;
+        padding: 20px;
         justify-content: center;
     }
 }
@@ -558,7 +557,7 @@ body {
     width: 100%;
     height: 650px;
     background: #F7E9E4;
-    margin-top: -200px;
+    margin-top: -50px;
     background-image: url(../img/Group\ \(1\).png);
     background-size: cover;
 }
