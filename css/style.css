@@ -11,8 +11,7 @@ html {
     overflow-x: hidden;
     margin: 0 auto;
     max-width: 1900px;
-    /* width: 100%;
-    height:100%; */
+    width: 100%;
     padding: 0 ;
 }
 
@@ -31,6 +30,19 @@ body {
     display: block;
     margin: 0 auto;
     width: 100%;
+}
+
+.navbar-brand h6{
+    display: flex;
+    flex-direction:column;
+    color: #ffffff !important;
+}
+
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
 }
 
 .dropdown-item {
@@ -69,25 +81,27 @@ body {
 }
 
 .container-main {
-    width: 100%;
+    width:100%;
     height: 620px;
     background-image: url(../img/main.png);
     background-size: cover;
     background-repeat:no-repeat ;
     background-repeat: no-repeat;
     color: #ffffff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-main-text {
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 150px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
 }
 
 .container-main-text h1 {
     text-transform: uppercase;
     font-size: 45px;
-    margin-left: 15px;
 }
 
 .container-main-text SPAN {
@@ -95,11 +109,11 @@ body {
 }
 
 .container-main-text P {
+    width: 45%;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 400;
     margin-top: 8px;
-    margin-left: 15px;
 }
 
 .see-our-menu {
@@ -110,7 +124,6 @@ body {
     font-weight: 700;
     border: none;
     margin-top: 5px;
-    margin-left: 15px;
 }
 
 
@@ -168,6 +181,11 @@ body {
         display: block;
     }
 
+    .container-main-text{
+        margin-top: 0px;
+        margin-left: 0px; 
+    }
+
     .container-main-text h1 {
         text-transform: uppercase;
         font-size: 30px;
@@ -179,6 +197,8 @@ body {
         font-size: 10px;
         font-weight: 400;
         margin-left:0px ;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .container-fluid {
@@ -191,11 +211,6 @@ body {
         height: 350px;
         background-size: cover;
         text-align: center;
-    }
-
-    .container-main-text {
-        margin-top: 50px;
-        margin-left: 10px;
     }
 
     .see-our-menu {
