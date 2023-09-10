@@ -145,6 +145,10 @@ body {
         align-items: center;
     }
 
+    .navbar-brand img{
+        margin: 2px;
+    }
+
     .nav-brand-text {
         display: none;
     }
@@ -182,6 +186,7 @@ body {
     }
 
     .container-main-text{
+        width: 100%;
         margin-top: 0px;
         margin-left: 0px; 
     }
@@ -1012,6 +1017,7 @@ td {
         margin: 0;
         padding: 10px;
         font-family: 'Open Sans';
+        font-weight: 600;
     }
 
     .projectFactsWrap .item p.number {
@@ -1028,7 +1034,7 @@ td {
     }
 
     #itemwow {
-        margin-left: 50%;
+        margin-left: 45%;
     }
 }
 
@@ -1180,6 +1186,8 @@ footer p strong {
     background-image: url(../img/email-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
     /* position: absolute; */
 }
 
@@ -1187,7 +1195,6 @@ footer p strong {
     font-size: 20px;
     padding-top: 60px;
     text-transform: capitalize;
-    text-align: center;
     color: #ffffff;
 }
 
@@ -1196,8 +1203,9 @@ footer p strong {
     height: 60px;
     text-transform: capitalize;
     font-size: 18px;
-    margin-left: 310px;
     border: none;
+    text-align: center;
+    margin: 0px;
 }
 
 .subscrib {
@@ -1207,6 +1215,7 @@ footer p strong {
     background-color: #CC9933;
     color: #ffffff;
     border: none;
+    margin: 0 ;
 }
 
 .email-btn {
@@ -1218,7 +1227,7 @@ footer p strong {
 @media (min-width:320px) and (max-width:480px) {
     .emailadd {
         width: 100%;
-        height: 240px;
+        height: 260px;
         margin-top: 0px;
         background-image: url(../img/email-bg.png);
         background-size: cover;
@@ -1230,7 +1239,8 @@ footer p strong {
         text-transform: capitalize;
         text-align: center;
         color: #ffffff;
-        padding-top: 50px;
+        padding-top: 40px;
+        margin-bottom: 0px;
     }
 
     .email {
@@ -1242,6 +1252,7 @@ footer p strong {
         text-align: center;
         border: none;
         display: flex;
+        margin-bottom: 5px;
     }
 
     .subscrib {
@@ -1251,9 +1262,8 @@ footer p strong {
         background-color: #CC9933;
         color: #ffffff;
         border: none;
-        margin: 0 auto;
-        margin-top: 5px;
         display: block;
+        margin: 0 auto;
     }
 }
 
@@ -1400,7 +1410,7 @@ footer p strong {
     .footer-text {
         display: block;
         margin-left: 20px;
-        text-align: left;
+        text-align: center;
     }
 
     .whysos {
@@ -1436,21 +1446,21 @@ footer p strong {
         display: flex;
         column-gap: 10px;
         margin-top: 10px;
-        justify-content: left;
+        justify-content: center;
     }
 
     .contect {
         display: flex;
         column-gap: 10px;
         margin-top: 10px;
-        justify-content: left;
+        justify-content: center;
     }
 
     .email-2 {
         display: flex;
         column-gap: 10px;
         margin-top: 10px;
-        justify-content: left;
+        justify-content: center;
     }
 }
 
