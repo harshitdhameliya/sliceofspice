@@ -145,6 +145,10 @@ body {
         align-items: center;
     }
 
+    .navbar-brand h6{
+        display: none;
+    }
+
     .navbar-brand img{
         margin: 2px;
     }
@@ -240,8 +244,8 @@ body {
         display: contents !important;
     }
 
-    .navbar-brand {
-        margin-left: 10px;
+    .navbar-brand h6{
+        display: none;
     }
 
     .nav-brand-text {
@@ -301,19 +305,11 @@ body {
         font-size: 13px;
         text-transform: uppercase;
         font-weight: 400;
-        margin-top: 10px;
-        margin-left: 10px;
     }
 
     .container-main-text h1 {
         text-transform: uppercase;
         font-size: 35px;
-        margin-left: 10px;
-    }
-
-    .container-main-text {
-        margin-left: 20px;
-        margin-top: 80px;
     }
 
     .see-our-menu {
@@ -324,7 +320,6 @@ body {
         font-weight: 700;
         border: none;
         margin-top: 5px;
-        margin-left: 10px;
     }
 }
 
@@ -340,8 +335,11 @@ body {
     }
 
     .navbar-brand {
-        margin-left: 50px;
         text-align: center;
+    }
+
+    .navbar-brand h6{
+        display: none;
     }
 
     .nav-brand-text {
@@ -390,23 +388,16 @@ body {
 
     .container-main {
         width: 100%;
-        height: 720px;
+        height: 500px;
         background-image: url(../img/main.png);
         background-size: cover;
         background-repeat: no-repeat;
         color: #ffffff;
     }
 
-    .container-main-text {
-        position: absolute;
-        margin-left: 80px;
-        margin-top: 150px;
-    }
-
     .container-main-text h1 {
         text-transform: uppercase;
         font-size: 45px;
-        margin-left: 15px;
     }
 
     .container-main-text SPAN {
@@ -414,12 +405,10 @@ body {
     }
 
     .container-main-text P {
-        width: 50%;
+        width: 80%;
         text-transform: uppercase;
         font-size: 13px;
         font-weight: 400;
-        margin-top: 8px;
-        margin-left: 15px;
     }
 
     .see-our-menu {
@@ -429,8 +418,6 @@ body {
         background-color: #CC9933;
         font-weight: 700;
         border: none;
-        margin-top: 5px;
-        margin-left: 15px;
     }
 }
 
@@ -496,6 +483,7 @@ body {
         width: 100%;
         height:auto !important;
         transform: translateY(0%);
+        padding: 10px;
         padding-bottom: 30px;
     }
 
@@ -535,8 +523,10 @@ body {
 @media (min-width:480px) and (max-width:769px) {
     .container-fluid-about {
         width: 100%;
-        height: 800px !important;
+        height: auto !important;
         transform: translateY(0%);
+        padding-bottom: 30px;
+        margin-top: 20px;
     }
 
     .container-f-about {
@@ -554,8 +544,11 @@ body {
         margin: 0;
         padding: 0;
         margin-top: 0px;
-        padding: 20px;
         justify-content: center;
+    }
+
+    .readmore{
+        margin-top: 20px;
     }
 }
 
@@ -563,7 +556,9 @@ body {
     .container-fluid-about {
         width: 100%;
         height: auto !important;
-        transform: translateY(-15%);
+        transform: translateY(-0%);
+        margin-top: 20px;
+        padding-bottom: 40px;
     }
 
     .container-f-about {
@@ -577,7 +572,7 @@ body {
 
 .delivery {
     width: 100%;
-    height: 650px;
+    height: 580px;
     background: #F7E9E4;
     margin-top: -50px;
     background-image: url(../img/Group\ \(1\).png);
@@ -586,13 +581,13 @@ body {
 
 .deliverytext p {
     width: 80%;
-    height: 200px;
+    height: 150px;
     margin: 0 auto;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .delivery-paragraph {
@@ -625,6 +620,7 @@ body {
         background-image: url(../img/Group\ \(1\).png);
         background-size: cover;
         background-repeat: no-repeat;
+        padding: 10px;
         padding-bottom:30px;
     }
 
@@ -655,10 +651,15 @@ body {
         height: auto;
         margin-top: 20px;
         background-image: url(../img/Group\ \(1\).png);
+        padding-bottom: 30px;
     }
 
     .delivery-paragraph {
         width: 100%;
+    }
+
+    .deliverytext p{
+        height: 100px;
     }
 }
 
@@ -667,7 +668,12 @@ body {
         width: 100%;
         height:auto;
         background: #F7E9E4;
-        margin-top: 0px;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .deliverytext p{
+        height: 140px;
     }
 }
 
@@ -701,7 +707,6 @@ body {
 .card1 img {
     width: 240px;
     height: 240px;
-    margin-top: 20px;
 }
 
 .card1-text {
@@ -727,7 +732,6 @@ body {
 .card2 img {
     width: 240px;
     height: 240px;
-    margin-top: 20px;
 }
 
 .card2-text {
@@ -752,7 +756,6 @@ body {
 .card3 img {
     width: 240px;
     height: 240px;
-    margin-top: 20px;
 }
 
 .card3-text {
@@ -788,7 +791,7 @@ body {
 @media (min-width:480px) and (max-width:769px) {
     .bestabout h1 {
         width: 100%;
-        height: 200px;
+        height: 120px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -799,6 +802,17 @@ body {
         width: 100%;
         display: grid;
         grid-template-columns: auto;
+    }
+
+    .card1 img {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:480px) and (max-width:769px){
+    .bestabout  {
+        width: 100%;
+        height:500px;
     }
 }
 
@@ -848,10 +862,7 @@ td {
 }
 
 .sectionClass {
-    padding: 20px 0px 0px 0px;
-    position: relative;
-    display: block;
-    padding-top: 60px !important;
+    margin-top:30px;
 }
 
 .fullWidth {
@@ -871,7 +882,7 @@ td {
 .counterbg img {
     width: 100%;
     height: 450px;
-    position: absolute;
+
 }
 
 @media (min-width:320px) and (max-width:480px) {
@@ -904,10 +915,9 @@ td {
 }
 
 @media (min-width:769px) and (max-width:1024px){
-    .counterbg img {
-        width: 100%;
-        height: 420px;
-        position: absolute;
+
+    .fullWidth.eight.columns{
+        margin-top: 100px;
     }
 }
 
@@ -937,6 +947,9 @@ td {
 
 #projectFacts .fullWidth {
     padding: 0;
+    background-image: url(../img/counterbg.png);
+    height: 450px;
+    margin-top: 30px;
 }
 
 .projectFactsWrap .item {
@@ -1133,12 +1146,13 @@ footer p strong {
 /* slider section css */
 .carousel.slide {
     width: 100%;
-    height: 450px;
+    height: 430px;
     margin: 0 auto;
     display: block;
     text-align: center;
     text-transform: uppercase;
     padding: 0px;
+    margin-top: 30px;
 }
 
 .carouselimg img {
