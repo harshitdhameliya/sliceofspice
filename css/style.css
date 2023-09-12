@@ -48,11 +48,15 @@ body {
 .dropdown-item {
     margin-left: 15px;
     color: #ffffff !important;
+    text-transform: capitalize;
+    font-size: 15px;
 }
 
 .dropdown-item.active {
     margin-left: 0;
     color: #ffffff !important;
+    text-transform: capitalize;
+    font-size: 15px;
 }
 
 .navbar-expand-lg .navbar-collapse{
