@@ -1190,7 +1190,6 @@ body{
     background-color: #16191E;
     font-weight: 200;
     margin-top: 60px;
-    font-family: 'Montserrat';
 }
 
 .footer-text {
@@ -1384,18 +1383,10 @@ body{
     color: #000000;
     font-weight: 100;
     display: grid;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     grid-template-columns: auto auto;
     font-family: 'Montserrat';
-}
-
-.copy-text{
-    margin-right: 250px;
-}
-
-.socialmicon{
-    margin-left: 150px;
 }
 
 /* copyright media */
