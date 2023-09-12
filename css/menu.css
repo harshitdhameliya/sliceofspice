@@ -95,7 +95,11 @@ body{
     }
 
     .navbar-brand {
-        margin-left: 10px;
+        margin-left: 0px;
+    }
+
+    .navbar-brand h6{
+        display: none;
     }
 
     .dropdown-item {
@@ -137,6 +141,10 @@ body{
         position: absolute;
     }
 
+    .navbar-brand h6{
+        display: none;
+    }
+
     .navbar>.container-fluid {
         column-gap: 0px;
         margin-left: 0px;
@@ -176,7 +184,7 @@ body{
     }
     
     .navbar-brand {
-        margin-left: 40px;
+        margin-left: 0px;
     }
     
     .dropdown-item {
