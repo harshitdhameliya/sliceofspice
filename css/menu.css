@@ -103,13 +103,15 @@ body{
     }
 
     .dropdown-item {
-        margin-left: 10px;
+        height: 25px;
+        margin-left: 0px;
         color: #000000 !important;
         text-align: center !important;
     }
 
     .dropdown-item.active {
-        margin-left: 5px;
+        margin-left:0px;
+        height:25px ;
         color: #000000 !important;
         text-align: center;
     }
@@ -153,13 +155,15 @@ body{
     }
 
     .dropdown-item {
-        margin-left: 10px;
+        margin-left: 0px;
+        height: 25px;
         color: #000000 !important;
         text-align: center !important;
     }
 
     .dropdown-item.active {
-        margin-left: 5px;
+        margin-left: 0px;
+        height: 25px;
         color: #000000 !important;
         text-align: center;
     }
