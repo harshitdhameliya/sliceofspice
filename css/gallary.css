@@ -139,6 +139,10 @@ body{
         margin-left:10px;
     }
 
+    .navbar-brand h6{
+        display: none;
+    }
+
     ul,li{
         display: flex !important;
     }
