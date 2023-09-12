@@ -139,7 +139,7 @@ body {
         background: none;
     }
 
-    .navbar>.container{
+    .navbar>.container-fluid{
         display: contents !important;
     }
 
