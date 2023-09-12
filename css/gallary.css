@@ -83,6 +83,10 @@ body{
         display: contents !important;
     }
 
+    .navbar-brand h6{
+        display: none;
+    }
+
     .dropdown-item{
         width: 100%;
         color: #000000 !important;
@@ -205,6 +209,7 @@ body{
 
 .gallary{
     width: 100%;
+    max-width:1900px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -224,15 +229,15 @@ body{
         height: 250px;
         background-image: url(../img/gallary\ bg.png);
         text-align: center;
+        display:grid;
+        justify-content: center;
+        align-items:center;
     }
     
     .container-main h1{
         color: #ffffff;
         text-transform: uppercase;
         font-size: 58px;
-        position: absolute;
-        margin-top: 70px;
-        margin-left: 30px;
     }
     
     .gallary-text h2{
@@ -261,15 +266,16 @@ body{
         height:300px;
         background-image: url(../img/gallary\ bg.png);
         text-align: center;
+        flex-wrap: wrap;
+        display:grid;
+        justify-content: center;
+        align-items:center;
     }
     
     .container-main h1{
         color: #ffffff;
         text-transform: uppercase;
         font-size: 58px;
-        position: absolute;
-        margin-top: 100px;
-        margin-left: 40px;
     }
     
     .gallary-text h2{
@@ -335,7 +341,7 @@ body{
 
 .footer{
     width: 100%;
-    height: 400px;
+    height: 380px;
     color: #ffffff;
     background-color: #16191E;
     font-weight: 200;
@@ -350,13 +356,13 @@ body{
 
 .whysos{
     width: 25%;
-    margin-top: 60px;
+    margin-top: 25px;
     padding: 5px;
 }
 
 .qlinks{
     width: 12%;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .qlinksa{
@@ -366,12 +372,12 @@ body{
 
 .opening{
     width: 18%;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .getit{
     width: 20%;
-    margin-top: 130px;
+    margin-top: 100px;
     display: grid;
 }
 
@@ -399,7 +405,7 @@ body{
 @media (min-width:320px) and (max-width:480px){
     .footer{
         width: 100%;
-        height: 900px;
+        height: 850px;
         background-color: #16191E;
         color: #ffffff;
     }
@@ -553,7 +559,7 @@ body{
 @media (min-width:320px) and (max-width:480px){
     .copyr{
         width: 100%;
-        height: 100px;
+        height: 70px;
         background-color: #CC9933;
         color: #000000;
         display: block;
@@ -572,7 +578,7 @@ body{
 @media (min-width:480px) and (max-width:768px){
     .copyr{
         width: 100%;
-        height: 100px;
+        height: 70px;
         background-color: #CC9933;
         color: #000000;
         display: block;
