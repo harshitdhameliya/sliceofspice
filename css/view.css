@@ -310,28 +310,115 @@ body {
     
 }
 
+@media only screen and (max-width:768px){
+    .navbar.navbar-expand-lg {
+        position: static;
+        background: none;
+    }
 
+    .navbar>.container-fluid{
+        display: contents !important;
+    }
 
+    .navbar-brand {
+        width: 50%;
+        margin-left: 10px;
+        align-items: center;
+    }
 
+    .navbar-brand h6{
+        display: none;
+    }
 
+    .navbar-brand img{
+        margin: 2px;
+    }
 
+    .nav-brand-text {
+        display: none;
+    }
 
+    .dropdown-item {
+        width: 100%;
+        height: 25px;
+        margin-left: 0;
+        color: #000000 !important;
+        margin: 0 auto;
+        display: block;
+        text-align: center !important;
+    }
 
+    .dropdown-item.active {
+        width: 100%;
+        height: 25px;
+        margin-left: 0px;
+        color: #000000 !important;
+        text-align: center;
+    }
 
+    .view {
+        width: 160px;
+        height: 36px;
+        display: grid;
+        column-gap: 10px;
+        text-transform: uppercase;
+        background-color: #CC9933;
+        color: #ffffff;
+        border: none;
+        margin-left: 0px;
+        font-weight: 600;
+        font-size: 15px;
+        font-style: bold;
+        margin: 0 auto;
+        display: block;
+    }
 
+    .container-fluid>.add{
+        display:none;
+    }
 
+    .container-fluid>.shopping-cart{
+        width: 100%;
+        height:100%;
+        transform: translatey(0%);
+    }
 
+    .shopping-cart h1{
+        height: 140px;
+    }
 
+    .shopping-cart>.row{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .shopping-cart>.row>.col-md-12{
+        height: auto;
+        padding-bottom: 20px;
+        margin-top:5px;
+        display:block;
+        text-align: center;
+    }
 
+    .shopping-cart>.row>.col-md-12 img{
+        width: 100%;
+        height: 100%;
+    }
 
+    .edit-remove{
+        display: block;
+        margin:0 auto;
+        margin-top: 20px;
+        padding-bottom:10px;
+    }
 
-
-
-
-
-
-
-
+    .btn-continue{
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+}
 
 /* footer css */
 
@@ -495,7 +582,7 @@ body {
     }
 
     .opening {
-        width: 80%;
+        width: 100%;
         margin-top: 30px;
         margin-left: 30px;
     }
