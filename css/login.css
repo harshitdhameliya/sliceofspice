@@ -147,6 +147,15 @@ form input {
         width: 80%;
         border: 1px solid black;
     }
+
+    .email-log {
+        width: 100%;
+    }
+
+    .google-log {
+        width: 100%;
+        padding: 10px;
+    }
 }
 
 @media only screen and (max-width:768px) {
