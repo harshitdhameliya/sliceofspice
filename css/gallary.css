@@ -15,48 +15,40 @@ body{
     font-family: 'Montserrat';
 }
 
-.navbar.navbar-expand-lg{
+.navbar.navbar-expand-lg.navbar-light {
+    position: absolute;
     width: 100%;
     max-width: 1900px;
-    position: absolute;
-    background-color: rgba(0, 0, 0,0.5);
     font-family: 'Montserrat';
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navbar>.container-fluid{
-    width: 90%;
-    display: block;
-    margin:0 auto;
-}
-
-.navbar-brand img{
+.navbar>.container-fluid {
     display: block;
     margin: 0 auto;
-    width: 50px;
-    height: 50px;
+    width: 90%;
 }
 
-.navbar-brand h6{
-    color:#fff;
+.navbar-brand h6 {
+    display: flex;
+    flex-direction: column;
+    color: #fff !important;
 }
 
-.navbar-expand-lg .navbar-collapse{
+.navbar-brand img {
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar.navbar-expand-lg.navbar-light .navbar-collapse {
     justify-content: end;
 }
 
-.dropdown-item{
-    margin-left: 10px;
-    color: #ffffff !important;
-    text-transform:capitalize;
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff !important;
 }
 
-.dropdown-item.active{
-    margin-left: 0;
-    color: #ffffff !important;
-    text-transform:capitalize;
-}
-
-.view{
+.view {
     width: 160px;
     height: 36px;
     display: flex;
@@ -65,58 +57,49 @@ body{
     column-gap: 10px;
     text-transform: uppercase;
     background-color: #CC9933;
-    color: #ffffff ;
+    color: #ffffff;
     border: none;
-    margin-left:30px;
+    margin-left: 30px;
     font-weight: 600;
     font-size: 15px;
-    font-style:bold;
+    font-style: bold;
 }
 
 @media (min-width:320px) and (max-width:480px){
-    .navbar.navbar-expand-lg{
+    .navbar.navbar-expand-lg.navbar-light {
         position: static;
-        background: none;
+        background-color: #fff;
     }
 
-    .navbar>.container-fluid{
-        display: contents !important;
-    }
-
-    .navbar-brand h6{
+    .navbar-brand h6 {
         display: none;
     }
 
-    .dropdown-item{
-        width: 100%;
-        color: #000000 !important;
-        margin: 0 auto;
+    .nav-item {
+        text-align: center;
         display: block;
-        text-align: center !important;
-    }
-    
-    .dropdown-item.active{
-        width: 100%;
-        margin-left: 0px;
-        color: #000000 !important;
-        text-align: center ;
+        margin: 0 auto;
     }
 
-    .view{
-        width: 160px;
-        height: 36px; 
-        display: grid;
-        column-gap: 10px;
-        text-transform: uppercase;
-        background-color: #CC9933;
-        color: #ffffff ;
-        border: none;
-        margin-left: 0px;
-        font-weight: 600;
-        font-size: 15px;
-        font-style:bold;
-        margin: 0 auto;
+    .nav-item .active {
+        text-align: center;
         display: block;
+        margin: 0 auto;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #000 !important;
+    }
+
+    .view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    form {
+        justify-content: center;
     }
 
     .container-fluid{
@@ -126,57 +109,39 @@ body{
 }
 
 @media (min-width:480px) and (max-width:768px){
-    .navbar.navbar-expand-lg{
+    .navbar.navbar-expand-lg.navbar-light {
         position: static;
-        background: none;
+        background-color: #fff;
     }
 
-    .navbar>.container-fluid{
-        display: contents !important;
-    }
-
-    .navbar-brand{
-        margin-left:10px;
-    }
-
-    .navbar-brand h6{
+    .navbar-brand h6 {
         display: none;
     }
 
-    ul,li{
-        display: flex !important;
+    .nav-item {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
     }
 
-    .dropdown-item{
-        width: 100%;
-        color: #000000 !important;
-        margin: 0 auto;
+    .nav-item .active {
+        text-align: center;
         display: block;
-        text-align: center !important;
+        margin: 0 auto;
     }
-    
-    .dropdown-item.active{
-        width: 100%;
-        margin-left: 0px;
-        color: #000000 !important;
-        text-align: center ;
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #000 !important;
     }
 
-    .view{
-        width: 160px;
-        height: 36px; 
-        display: grid;
-        column-gap: 10px;
-        text-transform: uppercase;
-        background-color: #CC9933;
-        color: #ffffff ;
-        border: none;
+    .view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-left: 0px;
-        font-weight: 600;
-        font-size: 15px;
-        font-style:bold;
-        margin: 0 auto;
-        display: block;
+    }
+
+    form {
+        justify-content: center;
     }
 
     .container-fluid{
